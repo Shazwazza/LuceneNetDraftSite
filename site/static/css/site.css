@@ -35,7 +35,8 @@ pre.clean {
 }
 
 .project-links i {
-    font-size: 2em;
+    font-size: 1.7em;
+    margin-left: 1rem;
 }
 
 #about h1,
@@ -72,10 +73,6 @@ h5 {
 }
 
 @media screen and (min-width: 700px) {
-    .home-section {
-        padding: 2rem;
-    }
-
     .project-links {
         margin-top: 2rem;
     }

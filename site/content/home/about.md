@@ -20,7 +20,7 @@ weight = 1
     <div class="row">
         <div class="text-center project-links">
             <a href="https://github.com/apache/lucenenet" target="_blank" ><i class="fa fa-github"></i></a>
-
+            <a href="http://mail-archives.apache.org/mod_mbox/lucenenet-dev/" target="_blank"><i class="fa fa-envelope-o"></i></a>
         </div>
     </div>
 </div>
