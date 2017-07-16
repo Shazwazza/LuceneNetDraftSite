@@ -905,13 +905,20 @@ nav#navbar-main li {
   color: #2b2b2b;
 }
 
-@media screen and (max-width: 1200px) {
+.navbar-brand {
+  width: 400px;
+}
+
+
+
+@media screen and (max-width: 900px) {
   .navbar {
     min-height: 50px !important;
   }
 
   .navbar-brand,
   .navbar-nav li a {
+    width: 400px;
     height: inherit;
     line-height: 40px;
     padding-top: 5px;
@@ -997,6 +1004,12 @@ nav#navbar-main li {
 
   .collapse.in {
     display: block !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    width: 300px;
   }
 }
 

@@ -13,13 +13,7 @@ tags = ["academic",
         "blog",
         "minimal"
         ]
-features = ["academic profile",
-            "research publication system",
-            "projects",
-            "blog",
-            "teaching",
-            "contact"
-            ]
+features = ["contact"]
 
 [author]
   name = "George Cushen"

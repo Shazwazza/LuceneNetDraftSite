@@ -1,0 +1,82 @@
+pre.clean {
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: #f8f8f8;
+}
+
+#about {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c5fa3+0,4096ee+100 */
+    background: rgb(44, 95, 163);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(44, 95, 163, 1) 0%, rgba(64, 150, 238, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(44, 95, 163, 1) 0%, rgba(64, 150, 238, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(44, 95, 163, 1) 0%, rgba(64, 150, 238, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c5fa3', endColorstr='#4096ee', GradientType=0);
+    /* IE6-9 */
+    color: white;
+}
+
+.project-links {
+    margin-top: 20px;
+    font-size:30px;
+}
+
+.project-links a:visited {
+    color: white;
+}
+
+.project-links a:hover {
+    color: #0095eb;
+    text-decoration: none;
+    transition: color 0.6s ease;
+}
+
+.project-links i {
+    font-size: 2em;
+}
+
+#about h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+}
+
+.no-padding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.nuget-well {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #202020;
+    border: 4px solid silver;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #6e6e6e;
+    color: #e2e2e2;
+    display: block;
+    font: 1em 'andale mono', 'lucida console', monospace;
+    line-height: 1em;
+    overflow: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.home-section {
+    padding: 2rem 0 2rem 0;
+}
+
+@media screen and (min-width: 700px) {
+    .home-section {
+        padding: 2rem;
+    }
+
+    .project-links {
+        margin-top: 2rem;
+    }
+}
