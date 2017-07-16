@@ -13,7 +13,7 @@ weight = 1
 <div class="container">
     <p class="text-center">Lucene.Net is a high performance embeddable search engine library for .NET and .NET Core</p>
         <div class="row">
-            <div class="nuget-well col-xs-12 col-sm-8 col-sm-offset-2 col-md-offset-2 col-md-8">
+            <div class="nuget-well col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-offset-2 col-md-8">
                 Install-Package Lucene.Net.Analysis.Common -Pre
             </div>
         </div>
