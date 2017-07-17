@@ -17,7 +17,7 @@ weight = 2
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-md-6 no-padding">
-            <p class="no-padding text-center">Create an index and define a text analyser</p>
+            <p class="no-padding text-center">Create an index and define a text analyzer</p>
             <pre class="clean"><code class="csharp">// Ensures index backwards compatibility
 var AppLuceneVersion = LuceneVersion.LUCENE_48;
 

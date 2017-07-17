@@ -1,6 +1,6 @@
 baseurl = "https://example.com/"  # End your URL with a `/` trailing slash.
 title = "Lucene.Net"
-copyright = "&copy; 2016 Lucene.Net"
+copyright = "&copy; 2017 Lucene.Net"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"

@@ -22,9 +22,11 @@ pre.clean {
 .project-links {
     margin-top: 20px;
     font-size:30px;
+
+    vertical-align: bottom;
 }
 
-.project-links a:visited {
+.project-links a,a:visited {
     color: white;
 }
 
