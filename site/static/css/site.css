@@ -4,7 +4,7 @@ pre.clean {
     background-color: #f8f8f8;
 }
 
-#about {
+#intro {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c5fa3+0,4096ee+100 */
     background: rgb(44, 95, 163);
     /* Old browsers */
@@ -41,11 +41,7 @@ pre.clean {
     margin-left: 1rem;
 }
 
-#about h1,
-h2,
-h3,
-h4,
-h5 {
+#intro h1 h2 h3 h4 h5 {
     color: white;
 }
 

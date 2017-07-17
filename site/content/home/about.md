@@ -1,36 +1,26 @@
 +++
-# About/Biography widget.
-
-date = "2016-04-20T00:00:00"
-draft = false
 
 widget = "custom-fullwidth"
 
 # Order that this section will appear in.
-weight = 1
+weight = 3
 
 +++
+
 <div class="container">
-    <p class="text-center">Lucene.Net is a high performance search engine library for .NET</p>
-        <div class="row">
-            <div class="nuget-well col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3">
-                Install-Package Lucene.Net -Pre
-            </div>
-        </div>
     <div class="row">
-        <div class="text-center project-links">
-            <a href="https://github.com/apache/lucenenet" target="_blank" >
-                <i class="fa fa-github"></i>
-            </a>
-            <a href="http://mail-archives.apache.org/mod_mbox/lucenenet-dev/" target="_blank">
-                <i class="fa fa-envelope-o"></i>
-            </a>
-            <a href="https://stackoverflow.com/questions/tagged/lucene.net" target="_blank">
-                <i class="fa fa-stack-overflow"></i>
-            </a>
-            <a href="https://www.nuget.org/packages?q=Author%3A%22The+Apache+Software+Foundation%22+Tag%3Alucene.net">
-                <i class="fa fa-download" target="_blank"></i>
-            </a>
-        </div>
+        <h2 class="text-center">About the project</h2>    
+        <h3>Our Goals</h3>
+        <ul>
+            <li>
+                <p>Maintain the existing line-by-line port from Java to C#, fully automating and commoditizing the process such that the project can easily synchronize with the Java Lucene release schedule.</p>
+            </li>
+            <li>
+                <p>Maintaining the high-performance requirements expected of a first class C# search engine library.</p>
+            </li>
+            <li>
+                <p>Maximize usability and power when used within the .NET runtime. To that end, it will present a highly idiomatic, carefully tailored API that takes advantage of many of the special features of the .NET runtime.</p>
+            </li>
+        </ul>
     </div>
 </div>
